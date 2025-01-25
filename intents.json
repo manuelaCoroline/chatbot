@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Bonjour", "Salut", "Hey", "Bonjour, comment ça va?", "Salut, est-ce que vous pouvez m'aider?"],
+      "responses": [
+        "Bonjour et bienvenue! je m'appelle manuela je suis la pour vous aider. Comment puis-je vous aider aujourd'hui avec vos besoins financiers?",
+        "Salut! Avez-vous des questions sur nos services bancaires ou vos comptes?",
+        "Bonjour! Je suis là pour répondre à toutes vos questions liées à nos produits et services. Que puis-je faire pour vous?"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["Quels sont vos horaires?", "À quelle heure ouvrez-vous?", "À quelle heure fermez-vous?", "Quels sont vos horaires d'ouverture?"],
+      "responses": [
+        "Nos succursales sont généralement ouvertes de 9h à 17h, du lundi au vendredi. Certaines succursales peuvent avoir des horaires prolongés ou être ouvertes le samedi.",
+        "Pour les services en ligne, notre application et notre site web sont accessibles 24h/24 et 7j/7. Nos conseillers téléphoniques sont disponibles de 8h à 20h.",
+        "Veuillez vérifier les horaires spécifiques de votre succursale locale via notre outil de localisation des succursales en ligne."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": ["Quels services offrez-vous?", "Que proposez-vous comme services?", "Parlez-moi de vos services bancaires", "Avez-vous des services de prêt?"],
+      "responses": [
+        "Nous offrons une large gamme de services bancaires, notamment :",
+        "1. Comptes courants et d'épargne adaptés à vos besoins.",
+        "2. Prêts personnels, prêts hypothécaires et prêts pour étudiants.",
+        "3. Cartes de crédit avec des options de récompenses variées.",
+        "4. Gestion de patrimoine, incluant les REER, CELI et autres placements.",
+        "5. Services bancaires en ligne et mobiles pour gérer vos finances à tout moment.",
+        "6. Conseils financiers personnalisés pour atteindre vos objectifs à court et à long terme."
+      ]
+    },
+    {
+      "tag": "account_opening",
+      "patterns": ["Comment ouvrir un compte?", "Puis-je ouvrir un compte en ligne?", "Comment puis-je ouvrir un compte?"],
+      "responses": [
+        "Pour ouvrir un compte, vous avez deux options principales :",
+        "1. En ligne : Rendez-vous sur notre site web ou notre application mobile et complétez le processus en quelques minutes.",
+        "2. En succursale : Prenez rendez-vous avec un conseiller qui vous guidera dans la création de votre compte.",
+        "Vous aurez besoin de fournir une pièce d'identité valide et un justificatif de domicile. Pour les comptes spécifiques, des documents supplémentaires peuvent être requis."
+      ]
+    },
+    {
+      "tag": "cards",
+      "patterns": ["Faites-vous des livraisons de cartes?", "Livrez-vous les cartes bancaires?", "Comment récupérer ma carte bancaire?", "Que faire si ma carte est perdue?"],
+      "responses": [
+        "Oui, nous livrons les cartes bancaires directement à votre adresse postale enregistrée dans un délai de 5 à 7 jours ouvrables.",
+        "Si vous préférez, vous pouvez récupérer votre carte en succursale après avoir pris un rendez-vous.",
+        "En cas de perte ou de vol de votre carte, veuillez immédiatement bloquer votre carte via notre application mobile ou en appelant notre service client 24h/24. Une nouvelle carte sera émise et envoyée rapidement."
+      ]
+    },
+    {
+      "tag": "loans",
+      "patterns": ["Comment obtenir un prêt?", "Quels sont vos taux pour les prêts?", "Avez-vous des prêts pour étudiants?", "Parlez-moi de vos options de prêt"],
+      "responses": [
+        "Nous proposons plusieurs types de prêts, notamment :",
+        "1. Prêts personnels pour vos projets (taux compétitifs et durées flexibles).",
+        "2. Prêts hypothécaires adaptés à l'achat ou à la rénovation de votre maison.",
+        "3. Prêts pour étudiants avec des options de remboursement avantageuses.",
+        "4. Marges de crédit pour une flexibilité financière.",
+        "Pour en faire la demande, préparez vos informations financières et contactez un conseiller ou utilisez notre outil en ligne pour une estimation rapide."
+      ]
+    },
+    {
+      "tag": "investments",
+      "patterns": ["Comment investir avec vous?", "Avez-vous des options de placement?", "Que proposez-vous pour les investissements?", "Parlez-moi de vos produits d'investissement"],
+      "responses": [
+        "Nous proposons des solutions de placement variées :",
+        "1. Comptes d'épargne à intérêt élevé pour un rendement sécurisé.",
+        "2. REER et CELI pour optimiser vos économies et réduire vos impôts.",
+        "3. Fonds mutuels et portefeuilles diversifiés pour maximiser vos rendements.",
+        "4. Services de gestion de patrimoine avec des conseillers experts pour une stratégie personnalisée.",
+        "Vous pouvez discuter avec un conseiller pour choisir les options qui correspondent le mieux à vos objectifs financiers."
+      ]
+    },
+    {
+      "tag": "security",
+      "patterns": ["Comment sécuriser mon compte?", "Que faire en cas de fraude?", "Comment protéger mes informations bancaires?", "Avez-vous des conseils pour la sécurité en ligne?"],
+      "responses": [
+        "Pour protéger votre compte, suivez ces bonnes pratiques :",
+        "1. Utilisez un mot de passe complexe et unique, et changez-le régulièrement.",
+        "2. Activez l'authentification à deux facteurs pour une sécurité renforcée.",
+        "3. Ne partagez jamais vos informations bancaires ou vos codes de sécurité.",
+        "4. En cas de fraude ou de transactions suspectes, contactez immédiatement notre service de sécurité disponible 24h/24 au numéro d'urgence indiqué sur notre site.",
+        "5. Méfiez-vous des courriels ou messages suspects demandant vos informations personnelles."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Merci", "Au revoir", "À bientôt", "bye"],
+      "responses": [
+        "Merci pour votre visite! Si vous avez d'autres questions, n'hésitez pas à revenir.",
+        "Au revoir! Passez une excellente journée, et à bientôt pour toute assistance bancaire.",
+        "À bientôt! Nous sommes toujours là pour vous aider avec vos besoins financiers."
+      ]
+    }
+  ]
+}
